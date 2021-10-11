@@ -112,4 +112,3 @@ females$subset <- "females"
 males$subset <- "males"
 
 all <- rbind(urban,rural,females,males)
-fwrite(all, "all_wpc.csv")
