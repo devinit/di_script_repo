@@ -17,6 +17,7 @@ crs_get <- function(start_year = NULL, end_year = NULL){
   
   if(!is.null(start_year)){
     downloads <- downloads[download_years_e >= start_year]
+    download_years_s <- download_years_s[download_years_e >= start_year]
     download_names <- download_names[download_years_e >= start_year]
   }
   if(!is.null(end_year)){
@@ -41,4 +42,3 @@ crs_get <- function(start_year = NULL, end_year = NULL){
   crs <- crs[Year >= start_year & Year <= end_year]
   return(crs)
 }
-
