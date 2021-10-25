@@ -44,30 +44,36 @@ fts_get_appeal_totals <- function(appeal_id, year){
   plan_name = xpathSApply(data, "//h1[@class='cd-page-title']", xmlValue)
   plan_name <- gsub("\\n", "", plan_name)
   
-  tables <- readHTMLTable(xpathSApply(data, "//div[@class='funding-progress-bar']", xmlGetAttr, "data-content"))
-  names.tables <- xpathSApply(data, "//div[@class='funding-info']", xmlValue)
+  tables <- xpathSApply(data, "//div[@class='funding-progress-bar']", xmlGetAttr, "data-content")
   
-  if(any(grepl("COVID-19", names.tables))){
-    covid <- data.table(transpose(tables[grepl(" COVID-19",names.tables)][[1]]))
-    non.covid <- data.table(transpose(tables[grepl("-COVID-19",names.tables)][[1]]))
-    names(covid) <- paste0("COVID.",unlist(covid[1]))
-    names(non.covid) <- unlist(non.covid[1])
-  } else {
-    if(grepl("COVID", plan_name)){
-      covid <- data.table(transpose(tables[[1]]))
+  if(length(tables) != 0){
+    tables <- readHTMLTable(tables)
+    names.tables <- xpathSApply(data, "//div[@class='funding-info']", xmlValue)
+    
+    if(any(grepl("COVID-19", names.tables))){
+      covid <- data.table(transpose(tables[grepl(" COVID-19",names.tables)][[1]]))
+      non.covid <- data.table(transpose(tables[grepl("-COVID-19",names.tables)][[1]]))
       names(covid) <- paste0("COVID.",unlist(covid[1]))
-      non.covid <- NULL
-    } else {
-      non.covid <- data.table(transpose(tables[[1]]))
       names(non.covid) <- unlist(non.covid[1])
-      covid <- NULL
+    } else {
+      if(grepl("COVID", plan_name)){
+        covid <- data.table(transpose(tables[[1]]))
+        names(covid) <- paste0("COVID.",unlist(covid[1]))
+        non.covid <- NULL
+      } else {
+        non.covid <- data.table(transpose(tables[[1]]))
+        names(non.covid) <- unlist(non.covid[1])
+        covid <- NULL
+      }
     }
+    
+    covid <- covid[-1]
+    non.covid <- non.covid[-1]
+    
+    out <- cbind(plan_name = plan_name, year = year, covid, non.covid)
+  } else {
+    out <- cbind(plan_name = plan_name, year = year)
   }
-  
-  covid <- covid[-1]
-  non.covid <- non.covid[-1]
-  
-  out <- cbind(plan_name = plan_name, year = year, covid, non.covid)
   return(out)
 }
 
