@@ -19,7 +19,7 @@ fts_get_flows <- function(year = NULL, planid = NULL, emergencyid = NULL, global
     globalclusterid <- paste0("globalclusterid=", paste0(globalclusterid, collapse=","))
   }
   if(!is.null(destinationlocationid)){
-    destinationlocationid <- paste0("destinationlocationid:", paste0(destinationlocation, collapse=","))
+    destinationlocationid <- paste0("destinationlocationid:", paste0(destinationlocationid, collapse=","))
   }
   
   call.filter <- NULL

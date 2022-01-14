@@ -38,7 +38,7 @@ crs_get <- function(start_year = NULL, end_year = NULL){
     file.remove(unztemp)
   }
   
-  crs <- rbindlist(crs)
+  crs <- rbindlist(crs, fill = T)
   crs <- crs[Year >= start_year & Year <= end_year]
   return(crs)
 }

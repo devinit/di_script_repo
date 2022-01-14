@@ -70,9 +70,9 @@ fts_get_appeal_totals <- function(appeal_id, year){
     covid <- covid[-1]
     non.covid <- non.covid[-1]
     
-    out <- cbind(plan_name = plan_name, year = year, covid, non.covid)
+    out <- cbind(appeal_id = appeal_id, plan_name = plan_name, year = year, covid, non.covid)
   } else {
-    out <- cbind(plan_name = plan_name, year = year)
+    out <- cbind(appeal_id = appeal_id, plan_name = plan_name, year = year)
   }
   return(out)
 }
@@ -95,6 +95,6 @@ fts_get_appeal_clusters <- function(appeal_id, year){
   names(tables)[grepl("cluster|sector", names(tables), ignore.case = T)] <- "Cluster"
   tables <- data.table(tables[-1,])
   
-  out <- cbind(plan_name = plan_name, year = year, tables)
+  out <- cbind(appeal_id = appeal_id, plan_name = plan_name, year = year, tables)
   return(out)
 }
