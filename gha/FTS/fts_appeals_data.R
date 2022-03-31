@@ -37,44 +37,75 @@ fts_get_appeal_totals <- function(appeal_id, year){
   required.packages <- c("data.table","jsonlite","httr","XML")
   lapply(required.packages, require, character.only=T)
   
-  planlink <- paste0('https://fts.unocha.org/appeals/', appeal_id, "/summary")
+  planlink <- paste0('https://fts.unocha.org/appeals/', appeal_id, "/clusters")
   
   data <- htmlParse(GET(planlink))
   
   plan_name = xpathSApply(data, "//h1[@class='cd-page-title']", xmlValue)
   plan_name <- gsub("\\n", "", plan_name)
   
-  tables <- xpathSApply(data, "//div[@class='funding-progress-bar']", xmlGetAttr, "data-bs-content")
+  total_table <- xpathSApply(data, "//table[@class='header-totals']")
   
-  if(length(tables) != 0){
-    tables <- readHTMLTable(tables)
-    names.tables <- xpathSApply(data, "//div[@class='funding-info']", xmlValue)
+  if(length(total_table) != 0){
+    table <- data.table(readHTMLTable(total_table[[1]]))
+    table <- setnames(data.table(tail(t(table), -1)), gsub("Filtered outgoing", "Outgoing", gsub("Filtered incoming", "Total incoming", table$V1)))
+    table <- table[, lapply(.SD, function(x) as.numeric(gsub("US|[$]|,|%", "", x)))]
     
-    if(any(grepl("COVID-19", names.tables))){
-      covid <- data.table(transpose(tables[grepl(" COVID-19",names.tables)][[1]]))
-      non.covid <- data.table(transpose(tables[grepl("-COVID-19",names.tables)][[1]]))
-      names(covid) <- paste0("COVID.",unlist(covid[1]))
-      names(non.covid) <- unlist(non.covid[1])
-    } else {
-      if(grepl("COVID", plan_name)){
-        covid <- data.table(transpose(tables[[1]]))
-        names(covid) <- paste0("COVID.",unlist(covid[1]))
-        non.covid <- NULL
-      } else {
-        non.covid <- data.table(transpose(tables[[1]]))
-        names(non.covid) <- unlist(non.covid[1])
-        covid <- NULL
-      }
-    }
-    
-    covid <- covid[-1]
-    non.covid <- non.covid[-1]
-    
-    out <- cbind(appeal_id = appeal_id, plan_name = plan_name, year = year, covid, non.covid)
+    out <- cbind(appeal_id = appeal_id, plan_name = plan_name, year = year, table)
   } else {
     out <- cbind(appeal_id = appeal_id, plan_name = plan_name, year = year)
   }
   return(out)
+}
+
+#Overall appeal requirements and contributions split by COVID
+fts_get_appeal_covid <- function(appeal_id, year){
+    
+    required.packages <- c("data.table","jsonlite","httr","XML")
+    lapply(required.packages, require, character.only=T)
+    
+    planlink <- paste0('https://fts.unocha.org/appeals/', appeal_id, "/summary")
+    
+    data <- htmlParse(GET(planlink))
+    
+    plan_name = xpathSApply(data, "//h1[@class='cd-page-title']", xmlValue)
+    plan_name <- gsub("\\n", "", plan_name)
+    
+    tables <- xpathSApply(data, "//div[@class='funding-progress-bar']", xmlGetAttr, "data-bs-content")
+    
+    if(length(tables) != 0){
+      tables <- readHTMLTable(tables)
+      names.tables <- xpathSApply(data, "//div[@class='funding-info']", xmlValue)
+      
+      if(any(grepl("COVID-19", names.tables))){
+        covid <- data.table(transpose(tables[grepl(" COVID-19",names.tables)][[1]]))
+        non.covid <- data.table(transpose(tables[grepl("-COVID-19",names.tables)][[1]]))
+        names(covid) <- paste0("COVID.",unlist(covid[1]))
+        names(non.covid) <- unlist(non.covid[1])
+      } else {
+        if(grepl("COVID", plan_name)){
+          covid <- data.table(transpose(tables[[1]]))
+          names(covid) <- paste0("COVID.",unlist(covid[1]))
+          non.covid <- covid
+          non.covid[non.covid != 0] <- 0
+          names(non.covid) <- gsub("COVID.", "",names(covid))
+        } else {
+          non.covid <- data.table(transpose(tables[[1]]))
+          names(non.covid) <- unlist(non.covid[1])
+          covid <- non.covid
+          covid[covid != 0] <- 0
+          names(covid) <- paste0("COVID.",names(non.covid))
+        }
+      }
+      
+      covid <- covid[-1]
+      non.covid <- non.covid[-1]
+      
+      out <- cbind(appeal_id = appeal_id, plan_name = plan_name, year = year, covid, non.covid)
+    } else {
+      out <- cbind(appeal_id = appeal_id, plan_name = plan_name, year = year)
+    }
+    return(out)
 }
 
 #Cluster funding and requirements

@@ -52,7 +52,7 @@ def get_home_rrps():
     global home_rrps_dropdown
     global home_rrps_search
     home_rrps_search = browser.find_elements_by_xpath("//*[text()='Search']")[0].find_element_by_xpath('..')
-    home_rrps_dropdown = browser.find_element_by_xpath("//*[contains(@aria-label, 'Inter-Agency Regional Plan,')]")
+    home_rrps_dropdown = browser.find_element_by_xpath("//*[contains(@aria-label, 'Regional Plan')]/i")
     home_rrps_dropdown.click()
     home_rrps = browser.find_elements_by_xpath("//span[@class='slicerText' and contains(@title, 'RP')]")
     home_rrps_dropdown.click()
@@ -65,7 +65,7 @@ def next_country(previous_country):
     global rrp_countries_dropdown
     rrp_countries_dropdown = browser.find_elements_by_xpath("//*[@class='slicer-dropdown-menu']")[1]
     rrp_countries_dropdown.click()
-    sleep(0.2)
+    sleep(0.5)
     rrp_countries = browser.find_elements_by_xpath("//*[@class='slicer-dropdown-popup visual']//*[@class='slicerText']")
     
     if previous_country:
@@ -77,10 +77,10 @@ def next_country(previous_country):
     if rrp_country == rrp_countries[len(rrp_countries)-1]:
         more_countries = False
        
-    sleep(0.2)
+    sleep(0.5)
     browser.execute_script("arguments[0].scrollIntoView(true);", rrp_country)
     rrp_country.click()
-    sleep(0.2)
+    sleep(0.5)
     rrp_countries_dropdown.click()
     return rrp_country
 
@@ -112,7 +112,7 @@ def switch_country(rrp_country):
 #Run
 ###
 
-url = "https://app.powerbi.com/view?r=eyJrIjoiM2M2NDMyZTgtZmQ4OC00ZDE1LWEyYWMtMTAxZDY2NzMyY2QxIiwidCI6ImU1YzM3OTgxLTY2NjQtNDEzNC04YTBjLTY1NDNkMmFmODBiZSIsImMiOjh9"
+url = "https://app.powerbi.com/view?r=eyJrIjoiZWE5MTAyYjYtNDZmYi00NGYzLWFkYjEtMzQ5MTAxZDBiZTU1IiwidCI6ImU1YzM3OTgxLTY2NjQtNDEzNC04YTBjLTY1NDNkMmFmODBiZSIsImMiOjh9"
 
 browser.get(url)
 
@@ -126,7 +126,7 @@ for i in range(len(home_rrps)):
     rrp_text = rrp.get_attribute('title')
     print(rrp_text)
     home_rrps_dropdown.click()
-    sleep(0.2)
+    sleep(0.5)
     rrp.click()
     home_rrps_dropdown.click()
     webdriver.ActionChains(browser).click(home_rrps_search).perform()
@@ -137,8 +137,9 @@ for i in range(len(home_rrps)):
     for j in range(len(rrp_years)):
         switch_year(j)
         sleep(1)
-        title = browser.find_elements_by_xpath("//*[@class='card']")[0].text
-        title_year = title[len(title)-4:len(title)]
+        #title = browser.find_elements_by_xpath("//*[@class='card']")[0].text
+        #title_year = title[len(title)-4:len(title)]
+        title_year = rrp_year
         print(title_year)
         more_countries = True
         previous_country = None
@@ -146,7 +147,7 @@ for i in range(len(home_rrps)):
             rrp_country = next_country(previous_country)
             country = rrp_country.get_attribute('title')
             print(country)
-            sleep(0.2)
+            sleep(0.5)
             data = browser.find_elements_by_xpath("//*[@class='card']")[1].text
 
             cols = ['RRP', 'Year', 'Country'] + data.split('\n')[1::2]
