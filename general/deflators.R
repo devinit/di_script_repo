@@ -1,10 +1,42 @@
-get_deflators <- function(base_year = 2020, currency = "USD", weo_ver = "Oct2021", approximate_missing = T){
+get_deflators <- function(base_year = 2020, currency = "USD", weo_ver = NULL, approximate_missing = T){
   suppressPackageStartupMessages(lapply(c("data.table"), require, character.only=T))
   
+  if(is.null(weo_ver)){
+    
+    tyear <- year(Sys.Date())
+    tmonth <- month(Sys.Date())
+    
+    weo_month <- ifelse(tmonth <= 10 & tmonth >= 4, 4, 10)
+    weo_year <- ifelse(tmonth < 4, tyear-1, tyear)
+    
+    weo_ver <- format(as.Date(paste("1", weo_month, weo_year, sep = "-"), "%d-%m-%Y"), "%b%Y")
+  }
+  
   ##WEO data
-  weo_year <- year(as.Date(paste0("1", weo_ver), "%d%b%Y"))
-  url <- paste0("https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/", weo_year, "/WEO", weo_ver ,"all.ashx")
-  weo <- fread(url, na.strings=c("n/a", "--"), showProgress = F)
+  pweo_ver <- as.Date(paste0("1", weo_ver), "%d%b%Y")
+  weo_year <- year(pweo_ver)
+  weo_month <- month(pweo_ver)
+  
+  while(T){
+    url <- paste0("https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/", weo_year, "/WEO", weo_ver ,"all.ashx")
+    response <- GET(url)
+    if(response$headers$`content-type` == "application/vnd.ms-excel") break
+    
+    if(weo_month <= 10 & weo_month > 4){
+      weo_month <- 4
+      } else {
+        if(weo_month <= 4){
+          weo_year <- weo_year - 1
+        }
+        weo_month <- 10
+      }
+    weo_ver <- format(as.Date(paste("1", weo_month, weo_year, sep = "-"), "%d-%m-%Y"), "%b%Y")
+  }
+  
+  message("Using IMF WEO version ", weo_ver, ".")
+  
+  content <- response$content
+  weo <- suppressWarnings(fread(rawToChar(content[content !='00']), na.strings=c("n/a", "--")))
   
   country_codes <- unique(weo[, .(ISO, Country)])
   
@@ -132,15 +164,15 @@ get_deflators <- function(base_year = 2020, currency = "USD", weo_ver = "Oct2021
     missing <- deflators[, .SD[any(is.na(gdp_defl))], by = ISO]
     missing_weo_gdp <- weo_gdp_con[ISO %in% missing$ISO]
     missing_weo_gdp[, variable := as.numeric(variable)]
-    missing_weo_gr <- missing_weo_gdp[, .(gdp_avg_curg = (gdp_cur[!is.na(gdp_cur) & variable == max(variable[!is.na(gdp_cur)])]/gdp_cur[!is.na(gdp_cur) & variable == min(variable[!is.na(gdp_cur)])])^(1/(max(variable[!is.na(gdp_cur)])-min(variable[!is.na(gdp_cur)]))),
+    missing_weo_gr <- suppressWarnings(missing_weo_gdp[, .(gdp_avg_curg = (gdp_cur[!is.na(gdp_cur) & variable == max(variable[!is.na(gdp_cur)])]/gdp_cur[!is.na(gdp_cur) & variable == min(variable[!is.na(gdp_cur)])])^(1/(max(variable[!is.na(gdp_cur)])-min(variable[!is.na(gdp_cur)]))),
                         gdp_avg_cong = (gdp_con[!is.na(gdp_con) & variable == max(variable[!is.na(gdp_con)])]/gdp_con[!is.na(gdp_con) & variable == min(variable[!is.na(gdp_con)])])^(1/(max(variable[!is.na(gdp_con)])-min(variable[!is.na(gdp_con)]))))
-                    , by = ISO]
+                    , by = ISO])
     missing_weo_gr <- missing_weo_gr[, .(defg = gdp_avg_curg/gdp_avg_cong), by = ISO]
   
     missing_defl <- merge(deflators[ISO %in% missing$ISO], missing_weo_gr, by = "ISO")
     
-    missing_defl_f <- missing_defl[, .SD[is.na(gdp_defl) & variable > max(variable[!is.na(gdp_defl)])], by = ISO]
-    missing_defl_b <- missing_defl[, .SD[is.na(gdp_defl) & variable < min(variable[!is.na(gdp_defl)])], by = ISO]
+    missing_defl_f <- suppressWarnings(missing_defl[, .SD[is.na(gdp_defl) & variable > max(variable[!is.na(gdp_defl)])], by = ISO])
+    missing_defl_b <- suppressWarnings(missing_defl[, .SD[is.na(gdp_defl) & variable < min(variable[!is.na(gdp_defl)])], by = ISO])
     
     missing_defl_b[, defg := rev(cumprod(1/defg)), by = ISO]
     missing_defl_f[, defg := cumprod(defg), by = ISO]
