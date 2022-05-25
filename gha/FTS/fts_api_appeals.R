@@ -12,7 +12,7 @@ fts_get_appeals <- function(years=NULL){
   base.url <- "https://api.hpc.tools/v1/public/plan/year/"
   
   plans.list <- list()
-  if(length(years) > 1){
+  if(length(years) >= 1){
     for(i in 1:length(years)){
       url <- paste0(base.url, years[i])
       plans <- fromJSON(url, flatten = T)$data
