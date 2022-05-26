@@ -129,3 +129,25 @@ fts_get_appeal_clusters <- function(appeal_id, year){
   out <- cbind(appeal_id = appeal_id, plan_name = plan_name, year = year, tables)
   return(out)
 }
+
+#Location funding and requirements (RRPs)
+fts_get_appeal_locations <- function(appeal_id, year){
+  
+  required.packages <- c("data.table","jsonlite","httr","XML")
+  lapply(required.packages, require, character.only=T)
+  
+  planlink <- paste0('https://fts.unocha.org/appeals/', appeal_id, "/locations")
+  
+  data <- htmlParse(GET(planlink))
+  
+  plan_name = xpathSApply(data, "//h1[@class='cd-page-title']", xmlValue)
+  plan_name <- gsub("\\n", "", plan_name)
+  
+  tables <- readHTMLTable(xpathSApply(data, "//div[@class='view-content row']")[[1]])
+  names(tables) <- tables[1,]
+  names(tables)[grepl("location", names(tables), ignore.case = T)] <- "Location"
+  tables <- data.table(tables[-1,])
+  
+  out <- cbind(appeal_id = appeal_id, plan_name = plan_name, year = year, tables)
+  return(out)
+}
