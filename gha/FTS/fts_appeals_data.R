@@ -44,7 +44,7 @@ fts_get_appeal_totals <- function(appeal_id, year){
   plan_name = xpathSApply(data, "//h1[@class='cd-page-title']", xmlValue)
   plan_name <- gsub("\\n", "", plan_name)
   
-  total_table <- xpathSApply(data, "//table[@class='header-totals']")
+  total_table <- xpathSApply(data, "//table[contains(@class, 'header-totals')]")
   
   if(length(total_table) != 0){
     table <- data.table(readHTMLTable(total_table[[1]]))

@@ -1,27 +1,31 @@
-RRP,Year,Country,funding Level for the plan,Funds Requested,Funds Received,# Agencies
-Afghanistan Regional RRP,2021,"Iran, Islamic Republic of",25%,"$135,856,299","$34,025,098",10
-Afghanistan Regional RRP,2021,Pakistan,39%,"$132,560,000","$51,783,885",5
-Afghanistan Regional RRP,2021,Regional,0%,(Blank),"$84,906,220",1
-Afghanistan Regional RRP,2021,Tajikistan,17%,"$24,326,327","$4,222,467",7
-Afghanistan Regional RRP,2021,Uzbekistan,2%,"$6,467,656","$134,000",6
-Afghanistan Regional RRP,2022,"Iran, Islamic Republic of",18%,"$258,735,082","$45,924,064",16
-Afghanistan Regional RRP,2022,Pakistan,16%,"$310,442,000","$49,388,636",32
-Afghanistan Regional RRP,2022,Regional,0%,(Blank),($0),1
-Afghanistan Regional RRP,2022,Tajikistan,9%,"$40,457,486","$3,535,857",9
+RRP,Year,Country,funding Level for the plan,Funds Requested,Funds Received (From all agencies),# Agencies in Plan
+Afghanistan Regional RRP,2021,"Iran, Islamic Republic of",42%,"$394,591,381","$166,843,031",16
+Afghanistan Regional RRP,2021,Pakistan,55%,"$443,002,000","$244,427,055",32
+Afghanistan Regional RRP,2021,Regional,0%,(Blank),"$86,903,368",(Blank)
+Afghanistan Regional RRP,2021,Tajikistan,15%,"$64,783,813","$9,501,466",9
+Afghanistan Regional RRP,2021,Turkmenistan,(Blank),"$3,149,935",(Blank),3
+Afghanistan Regional RRP,2021,Uzbekistan,19%,"$17,098,692","$3,167,194",6
+Afghanistan Regional RRP,2022,"Iran, Islamic Republic of",47%,"$258,735,082","$122,885,767",16
+Afghanistan Regional RRP,2022,Pakistan,62%,"$310,442,000","$192,643,170",32
+Afghanistan Regional RRP,2022,Regional,0%,(Blank),"$1,997,148",(Blank)
+Afghanistan Regional RRP,2022,Tajikistan,13%,"$40,457,486","$5,278,999",9
 Afghanistan Regional RRP,2022,Turkmenistan,(Blank),"$3,149,935",(Blank),3
-Afghanistan Regional RRP,2022,Uzbekistan,(Blank),"$10,631,036",(Blank),5
-Burundi Regional RRP,2015,"Congo, The Democratic Republic of the",72%,"$19,713,080","$14,271,115",9
-Burundi Regional RRP,2015,Regional,0%,(Blank),"$5,636,378",1
-Burundi Regional RRP,2015,Rwanda,39%,"$111,428,334","$43,362,437",16
-Burundi Regional RRP,2015,"Tanzania, United Republic of",36%,"$154,029,586","$56,185,815",14
-Burundi Regional RRP,2015,Uganda,30%,"$21,382,948","$6,385,546",7
+Afghanistan Regional RRP,2022,Uzbekistan,29%,"$10,631,036","$3,033,194",4
+Afghanistan Regional RRP,2023,"Iran, Islamic Republic of",0%,(Blank),"$7,232,166",(Blank)
+Afghanistan Regional RRP,2024,"Iran, Islamic Republic of",0%,(Blank),"$3,300,000",(Blank)
+Burundi Regional RRP,2015,"Congo, The Democratic Republic of the",29%,"$213,755,617","$62,961,606",11
+Burundi Regional RRP,2015,Regional,100%,"$3,450,399","$17,232,184",1
+Burundi Regional RRP,2015,Rwanda,32%,"$579,344,943","$186,859,115",28
+Burundi Regional RRP,2015,"Tanzania, United Republic of",37%,"$1,217,079,460","$447,269,875",36
+Burundi Regional RRP,2015,Uganda,27%,"$251,188,607","$68,130,595",25
+Burundi Regional RRP,2015,Zambia,0%,(Blank),"$341,959",(Blank)
 Burundi Regional RRP,2016,"Congo, The Democratic Republic of the",15%,"$25,018,903","$3,709,582",5
-Burundi Regional RRP,2016,Regional,0%,(Blank),"$3,695,553",1
+Burundi Regional RRP,2016,Regional,0%,(Blank),"$3,695,553",(Blank)
 Burundi Regional RRP,2016,Rwanda,41%,"$95,201,989","$38,871,988",21
 Burundi Regional RRP,2016,"Tanzania, United Republic of",61%,"$176,601,614","$107,268,625",24
 Burundi Regional RRP,2016,Uganda,33%,"$27,051,139","$8,868,801",8
 Burundi Regional RRP,2017,"Congo, The Democratic Republic of the",8%,"$37,704,393","$3,067,546",5
-Burundi Regional RRP,2017,Regional,0%,(Blank),"$553,159",1
+Burundi Regional RRP,2017,Regional,0%,(Blank),"$553,159",(Blank)
 Burundi Regional RRP,2017,Rwanda,22%,"$85,205,772","$18,874,662",17
 Burundi Regional RRP,2017,"Tanzania, United Republic of",27%,"$232,769,378","$61,724,079",20
 Burundi Regional RRP,2017,Uganda,6%,"$73,629,983","$4,779,076",10
@@ -30,274 +34,286 @@ Burundi Regional RRP,2018,Regional,67%,"$2,055,976","$1,384,140",1
 Burundi Regional RRP,2018,Rwanda,35%,"$74,285,960","$26,149,929",9
 Burundi Regional RRP,2018,"Tanzania, United Republic of",36%,"$234,038,148","$83,817,825",23
 Burundi Regional RRP,2018,Uganda,22%,"$46,863,835","$10,090,956",9
-Burundi Regional RRP,2019,(Blank),0%,(Blank),"$260,546",2
 Burundi Regional RRP,2019,"Congo, The Democratic Republic of the",22%,"$34,655,023","$7,463,601",7
 Burundi Regional RRP,2019,Regional,100%,"$1,394,423","$1,488,489",1
-Burundi Regional RRP,2019,Rwanda,33%,"$73,545,852","$23,908,934",14
+Burundi Regional RRP,2019,Rwanda,33%,"$73,545,852","$23,908,934",13
 Burundi Regional RRP,2019,"Tanzania, United Republic of",28%,"$157,079,765","$44,061,061",25
 Burundi Regional RRP,2019,Uganda,15%,"$26,242,545","$3,823,252",11
-Burundi Regional RRP,2019,Zambia,0%,(Blank),"$200,330",1
+Burundi Regional RRP,2019,Zambia,0%,(Blank),"$200,330",(Blank)
 Burundi Regional RRP,2020,"Congo, The Democratic Republic of the",50%,"$30,787,724","$15,242,311",7
-Burundi Regional RRP,2020,Regional,0%,(Blank),"$2,685,884",1
-Burundi Regional RRP,2020,Rwanda,25%,"$77,947,513","$19,361,031",14
+Burundi Regional RRP,2020,Regional,0%,(Blank),"$2,685,884",(Blank)
+Burundi Regional RRP,2020,Rwanda,25%,"$77,947,513","$19,361,031",12
 Burundi Regional RRP,2020,"Tanzania, United Republic of",35%,"$160,868,456","$56,603,322",25
-Burundi Regional RRP,2020,Uganda,87%,"$28,771,513","$24,987,848",15
-Burundi Regional RRP,2020,Zambia,0%,(Blank),"$141,629",1
-Burundi Regional RRP,2021,"Congo, The Democratic Republic of the",30%,"$31,923,508","$9,665,212",7
-Burundi Regional RRP,2021,Regional,0%,(Blank),"$1,788,581",1
-Burundi Regional RRP,2021,Rwanda,26%,"$61,729,523","$16,330,134",15
-Burundi Regional RRP,2021,"Tanzania, United Republic of",37%,"$101,692,513","$37,609,148",16
-Burundi Regional RRP,2021,Uganda,34%,"$27,246,644","$9,195,116",18
-Burundi Regional RRP,2022,"Congo, The Democratic Republic of the",0%,(Blank),"$1,243,898",1
-Burundi Regional RRP,2022,Regional,0%,(Blank),$0,1
-Burundi Regional RRP,2022,"Tanzania, United Republic of",0%,(Blank),"$681,818",1
-Burundi Regional RRP,2022,Uganda,0%,(Blank),"$5,707,587",2
-DRC Regional RRP,2018,Angola,29%,"$65,821,742","$19,323,945",14
-DRC Regional RRP,2018,Burundi,47%,"$40,688,797","$19,005,225",10
-DRC Regional RRP,2018,Congo,14%,"$17,139,178","$2,378,310",6
-DRC Regional RRP,2018,Regional,0%,(Blank),"$855,651",1
-DRC Regional RRP,2018,Rwanda,27%,"$57,384,701","$15,614,974",5
-DRC Regional RRP,2018,Southern Africa,(Blank),"$3,546,443",(Blank),1
-DRC Regional RRP,2018,"Tanzania, United Republic of",30%,"$68,731,300","$20,521,923",14
-DRC Regional RRP,2018,Uganda,39%,"$219,491,751","$86,040,203",32
-DRC Regional RRP,2019,(Blank),0%,(Blank),"$33,789,545",21
+Burundi Regional RRP,2020,Uganda,87%,"$28,771,513","$24,987,848",12
+Burundi Regional RRP,2020,Zambia,0%,(Blank),"$141,629",(Blank)
+Burundi Regional RRP,2021,"Congo, The Democratic Republic of the",30%,"$31,923,508","$9,665,212",5
+Burundi Regional RRP,2021,Regional,0%,(Blank),"$1,788,581",(Blank)
+Burundi Regional RRP,2021,Rwanda,26%,"$61,729,523","$16,330,134",14
+Burundi Regional RRP,2021,"Tanzania, United Republic of",37%,"$101,692,513","$37,609,148",13
+Burundi Regional RRP,2021,Uganda,34%,"$27,246,644","$9,195,116",15
+CAR Regional RRP,2014,Cameroon,40%,"$385,029,859","$153,011,588",24
+CAR Regional RRP,2014,Chad,31%,"$201,085,919","$62,899,422",12
+CAR Regional RRP,2014,Congo,17%,"$141,977,663","$23,980,239",7
+CAR Regional RRP,2014,"Congo, The Democratic Republic of the",28%,"$156,306,638","$44,142,750",9
+CAR Regional RRP,2014,Regional,0%,(Blank),"$49,682,339",(Blank)
+CAR Regional RRP,2015,Cameroon,40%,"$145,304,541","$58,529,274",15
+CAR Regional RRP,2015,Chad,13%,"$72,852,958","$9,494,990",7
+CAR Regional RRP,2015,Congo,4%,"$26,000,000","$943,755",7
+CAR Regional RRP,2015,"Congo, The Democratic Republic of the",8%,"$87,036,389","$7,335,593",7
+CAR Regional RRP,2015,Regional,0%,(Blank),"$16,525,767",(Blank)
+CAR Regional RRP,2016,Cameroon,34%,"$128,590,682","$43,750,617",19
+CAR Regional RRP,2016,Chad,26%,"$90,847,414","$23,757,789",8
+CAR Regional RRP,2016,Congo,18%,"$95,722,221","$17,134,361",4
+CAR Regional RRP,2016,"Congo, The Democratic Republic of the",72%,"$28,338,464","$20,459,150",6
+CAR Regional RRP,2016,Regional,0%,(Blank),"$8,843,530",(Blank)
+DRC Regional RRP,2018,Angola,30%,"$203,563,170","$61,776,973",18
+DRC Regional RRP,2018,Burma,0%,(Blank),$4,(Blank)
+DRC Regional RRP,2018,Burundi,33%,"$240,045,965","$79,408,107",15
+DRC Regional RRP,2018,Congo,34%,"$81,070,195","$27,940,522",8
+DRC Regional RRP,2018,Regional,12%,"$19,494,099","$2,363,513",1
+DRC Regional RRP,2018,Rwanda,34%,"$329,315,501","$111,311,366",20
+DRC Regional RRP,2018,South Africa,9%,"$3,546,443","$315,743",1
+DRC Regional RRP,2018,"Tanzania, United Republic of",32%,"$447,379,538","$141,203,781",28
+DRC Regional RRP,2018,Uganda,22%,"$1,451,485,349","$319,475,444",73
+DRC Regional RRP,2018,Zambia,17%,"$291,513,466","$48,383,843",21
 DRC Regional RRP,2019,Angola,21%,"$60,178,229","$12,365,822",13
 DRC Regional RRP,2019,Burundi,32%,"$42,897,026","$13,644,405",9
 DRC Regional RRP,2019,Congo,23%,"$21,960,701","$5,034,528",7
 DRC Regional RRP,2019,Regional,78%,"$1,944,799","$1,507,862",1
 DRC Regional RRP,2019,Rwanda,34%,"$64,660,309","$21,998,051",13
 DRC Regional RRP,2019,"Tanzania, United Republic of",21%,"$85,296,255","$18,135,384",18
-DRC Regional RRP,2019,Uganda,10%,"$365,954,127","$36,043,808",42
+DRC Regional RRP,2019,Uganda,10%,"$365,954,127","$36,043,808",41
 DRC Regional RRP,2019,Zambia,17%,"$76,819,768","$13,304,996",16
-DRC Regional RRP,2020,Angola,34%,"$29,413,011","$9,865,725",13
+DRC Regional RRP,2020,Angola,34%,"$29,413,011","$9,865,725",12
 DRC Regional RRP,2020,Burundi,24%,"$51,321,440","$12,428,599",10
 DRC Regional RRP,2020,Congo,22%,"$15,420,276","$3,349,396",6
-DRC Regional RRP,2020,Regional,(Blank),"$17,549,300",(Blank),1
-DRC Regional RRP,2020,Rwanda,21%,"$73,201,780","$15,596,273",16
-DRC Regional RRP,2020,South Africa,0%,(Blank),"$315,743",1
-DRC Regional RRP,2020,"Tanzania, United Republic of",31%,"$98,010,274","$30,248,713",21
-DRC Regional RRP,2020,Uganda,22%,"$278,960,687","$60,002,688",54
+DRC Regional RRP,2020,Regional,(Blank),"$17,549,300",(Blank),(Blank)
+DRC Regional RRP,2020,Rwanda,21%,"$73,201,780","$15,596,273",14
+DRC Regional RRP,2020,South Africa,0%,(Blank),"$315,743",(Blank)
+DRC Regional RRP,2020,"Tanzania, United Republic of",31%,"$98,010,274","$30,248,713",18
+DRC Regional RRP,2020,Uganda,22%,"$278,960,687","$60,002,688",37
 DRC Regional RRP,2020,Zambia,14%,"$74,832,609","$10,274,331",16
 DRC Regional RRP,2021,Angola,39%,"$23,099,697","$8,987,202",5
-DRC Regional RRP,2021,Burma,0%,(Blank),$4,1
-DRC Regional RRP,2021,Burundi,37%,"$50,795,995","$18,581,254",11
-DRC Regional RRP,2021,Congo,25%,"$11,079,843","$2,796,738",6
-DRC Regional RRP,2021,Regional,(Blank),$0,(Blank),1
-DRC Regional RRP,2021,Rwanda,29%,"$58,708,987","$16,908,831",16
-DRC Regional RRP,2021,"Tanzania, United Republic of",15%,"$105,025,976","$16,095,212",17
-DRC Regional RRP,2021,Uganda,20%,"$261,723,478","$52,603,141",48
+DRC Regional RRP,2021,Burma,0%,(Blank),$4,(Blank)
+DRC Regional RRP,2021,Burundi,37%,"$50,795,995","$18,581,254",10
+DRC Regional RRP,2021,Congo,25%,"$11,079,843","$2,796,738",5
+DRC Regional RRP,2021,Regional,(Blank),$0,(Blank),(Blank)
+DRC Regional RRP,2021,Rwanda,29%,"$58,708,987","$16,908,831",13
+DRC Regional RRP,2021,"Tanzania, United Republic of",15%,"$105,025,976","$16,095,212",15
+DRC Regional RRP,2021,Uganda,20%,"$261,723,478","$52,603,141",36
 DRC Regional RRP,2021,Zambia,17%,"$74,681,142","$12,888,063",17
-DRC Regional RRP,2022,Angola,0%,(Blank),"$1,120,577",1
-DRC Regional RRP,2022,Burundi,0%,(Blank),"$3,804,420",1
-DRC Regional RRP,2022,Congo,0%,(Blank),"$293,555",1
-DRC Regional RRP,2022,Rwanda,0%,(Blank),"$3,289,654",1
-DRC Regional RRP,2022,"Tanzania, United Republic of",0%,(Blank),"$3,356,515",2
-DRC Regional RRP,2022,Uganda,0%,(Blank),"$13,968,500",3
-DRC Regional RRP,2022,Zambia,0%,(Blank),"$1,083,725",1
+DRC Regional RRP,2022,Angola,45%,"$25,050,491","$11,234,279",7
+DRC Regional RRP,2022,Burundi,29%,"$54,342,707","$15,748,624",11
+DRC Regional RRP,2022,Congo,93%,"$15,470,197","$14,381,550",4
+DRC Regional RRP,2022,Rwanda,55%,"$75,359,724","$41,193,237",17
+DRC Regional RRP,2022,"Tanzania, United Republic of",62%,"$90,315,733","$56,202,549",10
+DRC Regional RRP,2022,Uganda,26%,"$325,355,306","$84,785,604",51
+DRC Regional RRP,2022,Zambia,18%,"$65,179,947","$11,916,453",17
+Europe Regional RMRP,2016,Croatia,14%,"$7,444,775","$1,010,634",7
+Europe Regional RMRP,2016,Fyr Macedonia,100%,"$37,379,595","$39,690,973",26
+Europe Regional RMRP,2016,Greece,67%,"$992,740,345","$660,944,014",55
+Europe Regional RMRP,2016,"Northern,Southern And Western Europe",0%,(Blank),"$1,080,812",(Blank)
+Europe Regional RMRP,2016,Other Affected Countries Central And Southern-Eastern Europe,(Blank),"$21,185,843",(Blank),10
+Europe Regional RMRP,2016,"Other Affected Countries Northern, Southern And Western Europe",(Blank),"$35,072,678",(Blank),14
+Europe Regional RMRP,2016,Regional,89%,"$91,642,811","$81,419,649",8
+Europe Regional RMRP,2016,Serbia,54%,"$59,981,418","$32,306,516",26
+Europe Regional RMRP,2016,Slovenia,22%,"$6,939,274","$1,534,534",8
+Europe Regional RMRP,2016,Turkey,30%,"$108,416,053","$32,106,547",7
+Europe Regional RMRP,2017,Fyr Macedonia,6%,"$11,365,515","$706,000",11
+Europe Regional RMRP,2017,Greece,58%,"$525,904,019","$303,296,571",40
+Europe Regional RMRP,2017,"Northern,Southern And Western Europe",0%,(Blank),"$1,080,812",(Blank)
+Europe Regional RMRP,2017,Other Affected Countries Central And Southern-Eastern Europe,(Blank),"$21,185,843",(Blank),10
+Europe Regional RMRP,2017,"Other Affected Countries Northern, Southern And Western Europe",(Blank),"$35,072,678",(Blank),14
+Europe Regional RMRP,2017,Regional,100%,"$23,670,404","$38,745,837",2
+Europe Regional RMRP,2017,Serbia,40%,"$39,251,551","$15,518,020",24
+Europe Regional RMRP,2017,Turkey,4%,"$34,485,668","$1,437,239",6
+Nigeria Regional RRP,2014,Cameroon,40%,"$400,377,718","$159,914,201",40
+Nigeria Regional RRP,2014,Chad,90%,"$120,629,575","$108,998,709",13
+Nigeria Regional RRP,2014,Niger,43%,"$558,126,661","$238,168,102",45
+Nigeria Regional RRP,2014,Regional,100%,"$780,144","$46,059,850",1
+Nigeria Regional RRP,2015,Cameroon,41%,"$62,799,052","$25,524,504",11
+Nigeria Regional RRP,2015,Chad,42%,"$30,180,208","$12,602,179",7
+Nigeria Regional RRP,2015,Niger,73%,"$81,430,664","$59,375,163",18
+Nigeria Regional RRP,2015,Regional,0%,(Blank),"$7,116,303",(Blank)
+Nigeria Regional RRP,2016,Cameroon,33%,"$56,361,252","$18,412,686",15
+Nigeria Regional RRP,2016,Chad,27%,"$30,293,386","$8,178,467",8
+Nigeria Regional RRP,2016,Niger,39%,"$112,109,640","$43,806,329",22
+Nigeria Regional RRP,2016,Regional,0%,(Blank),"$17,637,275",(Blank)
+Nigeria Regional RRP,2017,Cameroon,58%,"$67,254,162","$38,804,381",17
+Nigeria Regional RRP,2017,Chad,100%,"$19,610,356","$28,288,029",6
+Nigeria Regional RRP,2017,Niger,37%,"$154,292,688","$56,963,664",28
+Nigeria Regional RRP,2017,Regional,0%,(Blank),"$21,204,843",(Blank)
+Nigeria Regional RRP,2018,Cameroon,39%,"$72,102,004","$28,208,478",29
+Nigeria Regional RRP,2018,Chad,100%,"$14,472,684","$23,456,716",5
+Nigeria Regional RRP,2018,Niger,38%,"$69,477,231","$26,707,169",24
+Nigeria Regional RRP,2018,Regional,9%,"$534,782","$46,340",1
+Nigeria Regional RRP,2019,Cameroon,28%,"$65,109,469","$18,471,358",22
+Nigeria Regional RRP,2019,Chad,100%,"$10,983,261","$24,093,590",6
+Nigeria Regional RRP,2019,Niger,33%,"$60,207,062","$20,130,618",26
+Nigeria Regional RRP,2019,Regional,22%,"$245,362","$55,089",1
+Nigeria Regional RRP,2020,Cameroon,46%,"$60,902,178","$28,292,794",7
+Nigeria Regional RRP,2020,Chad,100%,"$9,513,980","$11,479,728",5
+Nigeria Regional RRP,2020,Niger,37%,"$67,962,283","$24,829,531",8
+Nigeria Regional RRP,2020,Regional,0%,(Blank),$0,(Blank)
+South Sudan Regional RRP,(Blank),Central African Republic,39%,"$25,702,123","$10,014,129",3
+South Sudan Regional RRP,(Blank),"Congo, The Democratic Republic of the",22%,"$311,528,093","$69,541,917",8
+South Sudan Regional RRP,(Blank),Ethiopia,33%,"$2,750,110,559","$917,122,431",44
+South Sudan Regional RRP,(Blank),Kenya,36%,"$882,400,395","$318,341,603",35
+South Sudan Regional RRP,(Blank),Regional,100%,"$4,954,813","$132,101,022",1
+South Sudan Regional RRP,(Blank),Sudan,33%,"$2,218,531,819","$739,953,779",51
+South Sudan Regional RRP,(Blank),Uganda,34%,"$3,991,945,883","$1,365,997,423",93
 South Sudan Regional RRP,2014,Ethiopia,57%,"$210,975,801","$120,544,064",19
 South Sudan Regional RRP,2014,Kenya,51%,"$108,824,008","$55,731,089",12
-South Sudan Regional RRP,2014,Regional,0%,(Blank),"$39,640,036",6
+South Sudan Regional RRP,2014,Regional,0%,(Blank),"$39,640,036",(Blank)
 South Sudan Regional RRP,2014,Sudan,30%,"$113,565,811","$34,283,087",17
 South Sudan Regional RRP,2014,Uganda,48%,"$224,303,989","$106,961,549",9
 South Sudan Regional RRP,2015,Ethiopia,25%,"$344,980,121","$84,602,742",21
 South Sudan Regional RRP,2015,Kenya,29%,"$92,206,190","$26,848,392",16
-South Sudan Regional RRP,2015,Regional,0%,(Blank),"$19,223,889",2
+South Sudan Regional RRP,2015,Regional,0%,(Blank),"$19,223,889",(Blank)
 South Sudan Regional RRP,2015,Sudan,34%,"$152,119,709","$52,101,741",19
 South Sudan Regional RRP,2015,Uganda,26%,"$220,607,768","$56,499,842",9
 South Sudan Regional RRP,2016,Central African Republic,48%,"$9,281,136","$4,410,563",3
 South Sudan Regional RRP,2016,"Congo, The Democratic Republic of the",63%,"$14,750,559","$9,333,640",5
 South Sudan Regional RRP,2016,Ethiopia,31%,"$276,379,510","$85,808,552",27
 South Sudan Regional RRP,2016,Kenya,25%,"$49,543,634","$12,608,561",8
-South Sudan Regional RRP,2016,Regional,0%,(Blank),"$39,320,195",1
+South Sudan Regional RRP,2016,Regional,0%,(Blank),"$39,320,195",(Blank)
 South Sudan Regional RRP,2016,Sudan,52%,"$158,448,491","$82,950,910",14
 South Sudan Regional RRP,2016,Uganda,41%,"$251,162,974","$104,086,753",29
 South Sudan Regional RRP,2017,Central African Republic,3%,"$13,834,819","$400,000",2
 South Sudan Regional RRP,2017,"Congo, The Democratic Republic of the",9%,"$72,006,531","$6,598,088",4
 South Sudan Regional RRP,2017,Ethiopia,31%,"$313,574,894","$96,178,482",23
 South Sudan Regional RRP,2017,Kenya,31%,"$88,625,895","$27,889,775",11
-South Sudan Regional RRP,2017,Regional,0%,(Blank),"$30,052,553",1
+South Sudan Regional RRP,2017,Regional,0%,(Blank),"$30,052,553",(Blank)
 South Sudan Regional RRP,2017,Sudan,32%,"$221,676,463","$70,652,020",19
 South Sudan Regional RRP,2017,Uganda,34%,"$673,190,970","$231,666,493",37
 South Sudan Regional RRP,2018,Central African Republic,63%,"$2,586,168","$1,616,583",1
 South Sudan Regional RRP,2018,"Congo, The Democratic Republic of the",18%,"$54,790,001","$9,634,206",4
-South Sudan Regional RRP,2018,Ethiopia,46%,"$342,109,266","$158,113,873",25
-South Sudan Regional RRP,2018,Kenya,35%,"$105,315,930","$37,031,720",18
+South Sudan Regional RRP,2018,Ethiopia,46%,"$342,109,266","$158,113,873",24
+South Sudan Regional RRP,2018,Kenya,35%,"$105,315,930","$37,031,720",16
 South Sudan Regional RRP,2018,Regional,70%,"$2,809,837","$1,978,718",1
-South Sudan Regional RRP,2018,Sudan,31%,"$294,828,240","$92,553,996",27
-South Sudan Regional RRP,2018,Uganda,68%,"$576,976,515","$393,677,824",47
-South Sudan Regional RRP,2019,(Blank),0%,(Blank),"$99,964,442",45
+South Sudan Regional RRP,2018,Sudan,31%,"$294,828,240","$92,553,996",25
+South Sudan Regional RRP,2018,Uganda,68%,"$576,976,515","$393,677,824",45
 South Sudan Regional RRP,2019,"Congo, The Democratic Republic of the",18%,"$55,367,528","$9,853,024",7
-South Sudan Regional RRP,2019,Ethiopia,56%,"$342,195,880","$190,289,461",25
+South Sudan Regional RRP,2019,Ethiopia,56%,"$342,195,880","$190,289,461",20
 South Sudan Regional RRP,2019,Kenya,43%,"$105,374,640","$45,003,447",28
 South Sudan Regional RRP,2019,Regional,88%,"$2,144,976","$1,885,631",1
-South Sudan Regional RRP,2019,Sudan,41%,"$326,062,014","$135,156,201",29
-South Sudan Regional RRP,2019,Uganda,21%,"$534,818,821","$109,860,202",64
-South Sudan Regional RRP,2020,Central African Republic,0%,(Blank),"$1,361,619",1
+South Sudan Regional RRP,2019,Sudan,41%,"$326,062,014","$135,156,201",26
+South Sudan Regional RRP,2019,Uganda,21%,"$534,818,821","$109,860,202",63
+South Sudan Regional RRP,2020,Central African Republic,0%,(Blank),"$1,361,619",(Blank)
 South Sudan Regional RRP,2020,"Congo, The Democratic Republic of the",32%,"$47,223,454","$14,997,942",8
-South Sudan Regional RRP,2020,Ethiopia,10%,"$374,917,926","$39,135,493",28
-South Sudan Regional RRP,2020,Kenya,29%,"$106,047,199","$30,351,444",27
-South Sudan Regional RRP,2020,Regional,0%,(Blank),$0,1
-South Sudan Regional RRP,2020,Sudan,44%,"$360,406,117","$158,132,237",30
-South Sudan Regional RRP,2020,Uganda,22%,"$541,313,611","$117,194,806",60
-South Sudan Regional RRP,2021,Central African Republic,0%,(Blank),"$2,225,364",1
-South Sudan Regional RRP,2021,"Congo, The Democratic Republic of the",26%,"$39,374,165","$10,139,314",5
-South Sudan Regional RRP,2021,Ethiopia,15%,"$278,042,999","$41,752,883",25
-South Sudan Regional RRP,2021,Kenya,21%,"$110,470,849","$23,397,325",25
-South Sudan Regional RRP,2021,Regional,0%,(Blank),$0,1
-South Sudan Regional RRP,2021,Sudan,21%,"$305,501,814","$64,283,606",44
-South Sudan Regional RRP,2021,Uganda,21%,"$478,394,321","$100,195,169",57
-South Sudan Regional RRP,2022,Central African Republic,0%,(Blank),"$139,550",1
-South Sudan Regional RRP,2022,"Congo, The Democratic Republic of the",0%,(Blank),"$2,300,066",2
-South Sudan Regional RRP,2022,Ethiopia,0%,(Blank),"$7,577,503",2
-South Sudan Regional RRP,2022,Kenya,0%,(Blank),"$10,345,496",4
-South Sudan Regional RRP,2022,Regional,0%,(Blank),$0,1
-South Sudan Regional RRP,2022,Sudan,2%,"$517,382,418","$11,411,099",40
-South Sudan Regional RRP,2022,Uganda,0%,(Blank),"$20,713,837",3
-Syria Regional 3RP,2014,Egypt,52%,"$141,977,106","$73,719,594",11
-Syria Regional 3RP,2014,Iraq,41%,"$474,040,412","$196,633,716",39
-Syria Regional 3RP,2014,Jordan,65%,"$1,014,530,914","$658,636,640",62
-Syria Regional 3RP,2014,Lebanon,52%,"$1,515,491,900","$794,515,583",63
-Syria Regional 3RP,2014,Regional,100%,"$97,323,798","$363,866,244",12
+South Sudan Regional RRP,2020,Ethiopia,10%,"$374,917,926","$39,135,493",25
+South Sudan Regional RRP,2020,Kenya,29%,"$106,047,199","$30,351,444",26
+South Sudan Regional RRP,2020,Regional,0%,(Blank),$0,(Blank)
+South Sudan Regional RRP,2020,Sudan,44%,"$360,406,117","$157,913,191",26
+South Sudan Regional RRP,2020,Uganda,22%,"$541,313,611","$117,194,806",47
+South Sudan Regional RRP,2021,Central African Republic,0%,(Blank),"$2,225,364",(Blank)
+South Sudan Regional RRP,2021,"Congo, The Democratic Republic of the",26%,"$39,374,165","$10,139,314",4
+South Sudan Regional RRP,2021,Ethiopia,15%,"$278,042,999","$41,752,883",22
+South Sudan Regional RRP,2021,Kenya,21%,"$110,470,849","$23,397,325",16
+South Sudan Regional RRP,2021,Regional,0%,(Blank),$0,(Blank)
+South Sudan Regional RRP,2021,Sudan,21%,"$305,501,814","$64,283,606",33
+South Sudan Regional RRP,2021,Uganda,21%,"$478,394,321","$100,195,169",41
+South Sudan Regional RRP,2022,"Congo, The Democratic Republic of the",32%,"$28,015,855","$8,985,703",2
+South Sudan Regional RRP,2022,Ethiopia,38%,"$266,934,162","$100,696,881",33
+South Sudan Regional RRP,2022,Kenya,51%,"$115,992,050","$59,479,850",22
+South Sudan Regional RRP,2022,Sudan,18%,"$285,923,160","$50,059,027",31
+South Sudan Regional RRP,2022,Uganda,30%,"$491,176,914","$145,854,785",62
+Syria Regional 3RP,2012,Egypt,35%,"$1,525,402,592","$531,913,469",18
+Syria Regional 3RP,2012,Iraq,47%,"$2,676,206,517","$1,262,653,307",72
+Syria Regional 3RP,2012,Jordan,54%,"$11,245,621,408","$6,049,322,610",97
+Syria Regional 3RP,2012,Lebanon,37%,"$20,599,877,221","$7,554,695,459",197
+Syria Regional 3RP,2012,overall,(Blank),"$3,469,623,592",(Blank),(Blank)
+Syria Regional 3RP,2012,Regional,66%,"$1,180,152,355","$784,508,464",9
+Syria Regional 3RP,2012,Turkey,49%,"$10,552,011,248","$5,157,019,098",47
+Syria Regional 3RP,2013,Egypt,0%,(Blank),"$36,373,552",(Blank)
+Syria Regional 3RP,2013,Iraq,0%,(Blank),"$184,621,508",(Blank)
+Syria Regional 3RP,2013,Jordan,0%,(Blank),"$773,308,888",(Blank)
+Syria Regional 3RP,2013,Lebanon,0%,(Blank),"$871,448,798",(Blank)
+Syria Regional 3RP,2013,overall,(Blank),"$2,981,640,112",(Blank),(Blank)
+Syria Regional 3RP,2013,Regional,0%,(Blank),"$158,721,320",(Blank)
+Syria Regional 3RP,2013,Turkey,0%,(Blank),"$151,104,748",(Blank)
+Syria Regional 3RP,2014,Egypt,52%,"$141,977,106","$73,719,594",10
+Syria Regional 3RP,2014,Iraq,41%,"$474,040,412","$196,633,716",30
+Syria Regional 3RP,2014,Jordan,65%,"$1,014,530,914","$658,636,640",49
+Syria Regional 3RP,2014,Lebanon,52%,"$1,515,491,900","$794,515,583",46
+Syria Regional 3RP,2014,Regional,100%,"$97,323,798","$363,866,244",6
 Syria Regional 3RP,2014,Turkey,36%,"$497,290,571","$177,852,548",8
-Syria Regional 3RP,2015,Egypt,31%,"$189,581,595","$57,894,546",11
-Syria Regional 3RP,2015,Iraq,42%,"$426,041,332","$177,699,691",32
-Syria Regional 3RP,2015,Jordan,62%,"$1,191,392,175","$743,537,004",57
-Syria Regional 3RP,2015,Lebanon,63%,"$1,760,611,315","$1,106,334,584",68
-Syria Regional 3RP,2015,Regional,100%,"$128,228,666","$298,714,827",14
-Syria Regional 3RP,2015,Turkey,46%,"$624,089,475","$286,031,454",11
-Syria Regional 3RP,2016,Egypt,40%,"$146,578,016","$58,676,325",12
-Syria Regional 3RP,2016,Iraq,61%,"$285,633,934","$174,551,118",35
-Syria Regional 3RP,2016,Jordan,63%,"$1,105,517,044","$699,210,479",57
-Syria Regional 3RP,2016,Lebanon,56%,"$1,902,410,103","$1,071,495,195",54
-Syria Regional 3RP,2016,Regional,78%,"$256,274,432","$198,643,368",9
-Syria Regional 3RP,2016,Turkey,85%,"$842,928,806","$713,232,535",11
-Syria Regional 3RP,2017,Egypt,40%,"$129,664,427","$51,548,627",13
-Syria Regional 3RP,2017,Iraq,45%,"$228,144,832","$103,511,259",30
-Syria Regional 3RP,2017,Jordan,57%,"$1,196,871,547","$680,028,521",62
-Syria Regional 3RP,2017,Lebanon,51%,"$2,170,478,254","$1,103,492,679",101
-Syria Regional 3RP,2017,Regional,100%,"$160,605,983","$994,463,828",11
-Syria Regional 3RP,2017,Turkey,29%,"$1,690,172,034","$493,790,452",12
-Syria Regional 3RP,2018,Egypt,43%,"$138,733,389","$59,164,805",11
-Syria Regional 3RP,2018,Iraq,39%,"$226,812,206","$88,173,119",32
-Syria Regional 3RP,2018,Jordan,60%,"$1,043,346,938","$621,616,798",67
-Syria Regional 3RP,2018,Lebanon,45%,"$2,291,098,474","$1,032,168,504",105
-Syria Regional 3RP,2018,Regional,100%,"$165,283,274","$573,540,093",8
-Syria Regional 3RP,2018,Turkey,64%,"$1,743,677,229","$1,110,502,042",12
-Syria Regional 3RP,2019,Albania,0%,(Blank),"$116,476",1
-Syria Regional 3RP,2019,Algeria,0%,(Blank),"$254,374",1
-Syria Regional 3RP,2019,Argentina,0%,(Blank),"$137,193",1
-Syria Regional 3RP,2019,Armenia,0%,(Blank),"$605,849",1
-Syria Regional 3RP,2019,Austria,0%,(Blank),"$8,813",1
-Syria Regional 3RP,2019,Belarus,0%,(Blank),"$189,761",1
-Syria Regional 3RP,2019,Belgium,0%,(Blank),"$836,736",1
-Syria Regional 3RP,2019,Bosnia and Herzegovina,0%,(Blank),"$408,672",1
-Syria Regional 3RP,2019,Bulgaria,0%,(Blank),"$299,584",1
-Syria Regional 3RP,2019,Cyprus,0%,(Blank),"$332,061",1
-Syria Regional 3RP,2019,Egypt,30%,"$162,093,314","$48,920,053",14
-Syria Regional 3RP,2019,Iraq,27%,"$265,033,323","$71,677,579",22
-Syria Regional 3RP,2019,Ireland,0%,(Blank),"$9,046",1
-Syria Regional 3RP,2019,Jordan,32%,"$1,075,485,682","$348,282,895",53
-Syria Regional 3RP,2019,Lebanon,21%,"$2,240,773,283","$479,506,299",110
-Syria Regional 3RP,2019,Libya,0%,(Blank),"$6,040,427",1
-Syria Regional 3RP,2019,Malta,0%,(Blank),"$155,680",1
-Syria Regional 3RP,2019,Mauritania,0%,(Blank),"$303,432",1
-Syria Regional 3RP,2019,Morocco,0%,(Blank),"$1,197,909",1
-Syria Regional 3RP,2019,Netherlands,0%,(Blank),"$9,046",1
-Syria Regional 3RP,2019,Regional,12%,"$138,840,757","$16,621,698",3
-Syria Regional 3RP,2019,Saudi Arabia,0%,(Blank),"$4,106,946",1
-Syria Regional 3RP,2019,Serbia,0%,(Blank),"$754,811",1
-Syria Regional 3RP,2019,Spain,0%,(Blank),"$835,245",1
-Syria Regional 3RP,2019,Sudan,0%,(Blank),"$4,724,717",1
-Syria Regional 3RP,2019,Switzerland,0%,(Blank),"$9,360",1
-Syria Regional 3RP,2019,Tunisia,0%,(Blank),"$597,178",1
-Syria Regional 3RP,2019,Turkey,39%,"$1,652,704,156","$645,142,606",25
-Syria Regional 3RP,2019,United Arab Emirates,0%,(Blank),"$1,786,271",1
-Syria Regional 3RP,2020,Egypt,(Blank),"$169,085,254",(Blank),16
-Syria Regional 3RP,2020,Iraq,(Blank),"$293,662,566",(Blank),26
-Syria Regional 3RP,2020,Jordan,(Blank),"$1,475,421,995",(Blank),71
-Syria Regional 3RP,2020,Lebanon,(Blank),"$2,353,693,579",(Blank),114
-Syria Regional 3RP,2020,Regional,100%,"$401,693,804","$2,230,000,000",6
-Syria Regional 3RP,2020,Turkey,(Blank),"$1,302,418,560",(Blank),51
-Syria Regional 3RP,2021,Algeria,37%,"$1,714,813,689","$626,318,853",1
-Syria Regional 3RP,2021,Egypt,37%,"$1,714,813,689","$626,318,853",1
-Syria Regional 3RP,2021,Iraq,37%,"$1,714,813,689","$626,318,853",1
-Syria Regional 3RP,2021,Jordan,37%,"$1,714,813,689","$626,318,853",1
-Syria Regional 3RP,2021,Lebanon,37%,"$1,714,813,689","$626,318,853",1
-Syria Regional 3RP,2021,Libya,37%,"$1,714,813,689","$626,318,853",1
-Syria Regional 3RP,2021,Mauritania,56%,"$338,798","$188,526",1
-Syria Regional 3RP,2021,Morocco,64%,"$683,714","$436,794",1
-Syria Regional 3RP,2021,Regional,0%,"$29,869,515","$80,358",1
-Syria Regional 3RP,2021,Saudi Arabia,53%,"$6,311,794","$3,363,509",1
-Syria Regional 3RP,2021,Syrian Arab Republic,(Blank),"$316,603,743",(Blank),1
-Syria Regional 3RP,2021,Turkey,28%,"$303,676,151","$85,430,791",1
-Syria Regional 3RP,2021,United Arab Emirates,0%,(Blank),"$1,292,253",1
-Syria Regional 3RP,2022,Iraq,0%,(Blank),"$13,829,773",1
-Syria Regional 3RP,2022,Jordan,0%,(Blank),"$43,868,578",1
-Syria Regional 3RP,2022,Lebanon,0%,(Blank),"$61,944,464",1
-Syria Regional 3RP,2022,Regional,0%,(Blank),"$10,000",1
-Syria Regional 3RP,2022,Sudan,0%,(Blank),"$964,680",1
-Syria Regional 3RP,2022,Tunisia,0%,(Blank),"$660,136",1
-Syria Regional 3RP,2022,Turkey,0%,(Blank),"$33,477,815",1
-Ukraine Regional RRP,2022,Belarus,0%,(Blank),"$339,639",1
-Ukraine Regional RRP,2022,Bulgaria,0%,(Blank),"$26,296",1
-Ukraine Regional RRP,2022,Czech Republic,0%,(Blank),"$144,566",1
-Ukraine Regional RRP,2022,Hungary,4%,"$32,500,000","$1,156,531",12
-Ukraine Regional RRP,2022,Moldova,8%,"$121,167,000","$9,954,634",12
-Ukraine Regional RRP,2022,Other Countries (Ukraine RRP),(Blank),"$95,710,000",(Blank),12
-Ukraine Regional RRP,2022,Poland,7%,"$202,487,000","$14,174,320",12
-Ukraine Regional RRP,2022,Regional Activities Europe,0%,(Blank),"$482,001",1
-Ukraine Regional RRP,2022,Regional Bureau Europe,0%,(Blank),"$158,174",1
-Ukraine Regional RRP,2022,Romania,12%,"$65,135,000","$7,888,830",12
-Ukraine Regional RRP,2022,Slovak Republic,0%,(Blank),"$693,918",1
-Ukraine Regional RRP,2022,Slovakia,(Blank),"$33,650,000",(Blank),12
-Venezuela Regional RMRP,2019,Argentina,0%,(Blank),"$4,875,679",2
-Venezuela Regional RMRP,2019,Aruba,0%,(Blank),"$249,999",1
-Venezuela Regional RMRP,2019,Brazil,65%,"$56,554,428","$36,857,488",22
-Venezuela Regional RMRP,2019,Carribean,(Blank),"$34,839,838",(Blank),14
-Venezuela Regional RMRP,2019,Central America And Mexico,(Blank),"$21,710,484",(Blank),17
-Venezuela Regional RMRP,2019,Chile,0%,(Blank),"$1,099,082",2
-Venezuela Regional RMRP,2019,Colombia,62%,"$315,467,200","$196,643,282",40
-Venezuela Regional RMRP,2019,Costa Rica,0%,(Blank),"$3,156,035",3
-Venezuela Regional RMRP,2019,Curaçao,0%,(Blank),"$213,590",1
-Venezuela Regional RMRP,2019,Dominican Republic,0%,(Blank),"$322,050",1
-Venezuela Regional RMRP,2019,Ecuador,44%,"$117,288,607","$52,130,686",25
-Venezuela Regional RMRP,2019,Guyana,0%,(Blank),"$1,377,266",3
-Venezuela Regional RMRP,2019,Mexico,0%,(Blank),"$975,848",2
-Venezuela Regional RMRP,2019,Panama,0%,(Blank),"$2,740,569",4
-Venezuela Regional RMRP,2019,Paraguay,0%,(Blank),"$159,998",1
-Venezuela Regional RMRP,2019,Peru,39%,"$106,384,465","$41,602,041",33
-Venezuela Regional RMRP,2019,Regional,83%,"$49,711,965","$41,421,556",16
-Venezuela Regional RMRP,2019,Southern Cone,(Blank),"$35,654,391",(Blank),31
-Venezuela Regional RMRP,2019,Trinidad and Tobago,0%,(Blank),"$2,732,708",4
-Venezuela Regional RMRP,2019,Uruguay,0%,(Blank),"$545,614",2
-Venezuela Regional RMRP,2020,Argentina,(Blank),"$18,875,663",(Blank),18
-Venezuela Regional RMRP,2020,Aruba,(Blank),"$6,492,966",(Blank),6
-Venezuela Regional RMRP,2020,Bolivia,(Blank),"$5,733,741",(Blank),6
-Venezuela Regional RMRP,2020,Brazil,(Blank),"$88,208,864",(Blank),26
-Venezuela Regional RMRP,2020,Chile,(Blank),"$31,467,818",(Blank),17
-Venezuela Regional RMRP,2020,Colombia,(Blank),"$739,209,993",(Blank),59
-Venezuela Regional RMRP,2020,Costa Rica,(Blank),"$2,560,168",(Blank),5
-Venezuela Regional RMRP,2020,Curacao,(Blank),"$7,546,327",(Blank),12
-Venezuela Regional RMRP,2020,Dominican Republic,(Blank),"$4,217,500",(Blank),8
-Venezuela Regional RMRP,2020,Ecuador,(Blank),"$199,347,146",(Blank),35
-Venezuela Regional RMRP,2020,Guyana,(Blank),"$13,030,738",(Blank),6
-Venezuela Regional RMRP,2020,Mexico,(Blank),"$5,653,869",(Blank),2
-Venezuela Regional RMRP,2020,Panama,(Blank),"$6,546,110",(Blank),7
-Venezuela Regional RMRP,2020,Paraguay,(Blank),"$2,780,379",(Blank),10
-Venezuela Regional RMRP,2020,Peru,(Blank),"$136,525,462",(Blank),27
-Venezuela Regional RMRP,2020,Regional,100%,"$121,116,808","$713,800,000",23
-Venezuela Regional RMRP,2020,Southern Cone,(Blank),"$62,400",(Blank),1
-Venezuela Regional RMRP,2020,Trinidad and Tobago,(Blank),"$14,273,376",(Blank),5
-Venezuela Regional RMRP,2020,Uruguay,(Blank),"$3,930,839",(Blank),13
-Venezuela Regional RMRP,2021,Brazil,(Blank),"$27,569,334",(Blank),1
-Venezuela Regional RMRP,2021,Colombia,(Blank),"$68,987,380",(Blank),1
-Venezuela Regional RMRP,2021,Costa Rica,(Blank),"$5,158,693",(Blank),1
-Venezuela Regional RMRP,2021,Ecuador,(Blank),"$39,924,242",(Blank),1
-Venezuela Regional RMRP,2021,Mexico,(Blank),"$4,597,618",(Blank),1
-Venezuela Regional RMRP,2021,Panama,(Blank),"$20,664,717",(Blank),1
-Venezuela Regional RMRP,2021,Peru,(Blank),"$55,000,000",(Blank),1
-Venezuela Regional RMRP,2021,Regional,(Blank),"$7,224,323",(Blank),1
-Venezuela Regional RMRP,2021,United States,(Blank),"$5,948,304",(Blank),1
-Venezuela Regional RMRP,2022,Colombia,0%,(Blank),"$1,161,946",3
-Venezuela Regional RMRP,2022,Panama,0%,(Blank),"$307,364",1
-Venezuela Regional RMRP,2022,Peru,0%,(Blank),"$313,648",1
+Syria Regional 3RP,2015,Egypt,(Blank),"$379,763,595",(Blank),11
+Syria Regional 3RP,2015,Iraq,40%,"$426,041,332","$170,486,282",26
+Syria Regional 3RP,2015,Jordan,39%,"$1,805,326,284","$699,730,530",49
+Syria Regional 3RP,2015,Lebanon,1%,"$1,866,550,319","$15,917,925",49
+Syria Regional 3RP,2015,Regional,(Blank),"$128,228,666",(Blank),3
+Syria Regional 3RP,2015,Turkey,43%,"$624,089,475","$266,868,702",10
+Syria Regional 3RP,2016,Egypt,42%,"$146,578,016","$62,046,723",12
+Syria Regional 3RP,2016,Iraq,61%,"$285,633,934","$174,551,119",27
+Syria Regional 3RP,2016,Jordan,(Blank),"$1,105,517,044",(Blank),48
+Syria Regional 3RP,2016,Lebanon,0%,"$1,902,928,103","$22,100",42
+Syria Regional 3RP,2016,Regional,(Blank),"$256,274,432",(Blank),7
+Syria Regional 3RP,2016,Turkey,52%,"$842,928,806","$434,990,636",10
+Syria Regional 3RP,2017,Egypt,48%,"$129,664,428","$62,821,709",11
+Syria Regional 3RP,2017,Iraq,35%,"$228,144,832","$80,737,920",23
+Syria Regional 3RP,2017,Jordan,56%,"$1,196,871,546","$675,745,086",48
+Syria Regional 3RP,2017,Lebanon,2%,"$2,170,778,254","$33,373,200",72
+Syria Regional 3RP,2017,Regional,9%,"$160,605,983","$13,732,396",6
+Syria Regional 3RP,2017,Turkey,(Blank),"$1,690,172,034",(Blank),11
+Syria Regional 3RP,2018,Egypt,54%,"$138,733,389","$75,151,576",9
+Syria Regional 3RP,2018,Iraq,40%,"$226,812,206","$90,585,223",26
+Syria Regional 3RP,2018,Jordan,71%,"$1,043,584,730","$742,589,997",49
+Syria Regional 3RP,2018,Lebanon,47%,"$2,291,710,474","$1,068,554,041",78
+Syria Regional 3RP,2018,Regional,(Blank),"$165,283,274",(Blank),4
+Syria Regional 3RP,2018,Turkey,84%,"$1,743,677,229","$1,464,064,530",11
+Syria Regional 3RP,2019,Egypt,39%,"$162,093,314","$63,507,076",12
+Syria Regional 3RP,2019,Iraq,34%,"$265,033,324","$88,903,447",21
+Syria Regional 3RP,2019,Jordan,71%,"$959,547,519","$681,569,144",29
+Syria Regional 3RP,2019,Lebanon,55%,"$2,243,778,399","$1,234,963,751",89
+Syria Regional 3RP,2019,Regional,6%,"$138,840,757","$8,332,785",3
+Syria Regional 3RP,2019,Turkey,62%,"$1,652,704,157","$1,027,336,919",26
+Syria Regional 3RP,2020,Egypt,35%,"$169,085,254","$58,928,982",13
+Syria Regional 3RP,2020,Iraq,37%,"$293,662,566","$109,725,968",20
+Syria Regional 3RP,2020,Jordan,38%,"$1,476,063,301","$567,288,367",47
+Syria Regional 3RP,2020,Lebanon,54%,"$2,658,653,272","$1,441,768,353",77
+Syria Regional 3RP,2020,Regional,100%,"$99,034,109","$132,508,500",4
+Syria Regional 3RP,2020,Turkey,53%,"$1,302,418,560","$695,544,350",23
+Syria Regional 3RP,2021,Egypt,47%,"$127,315,563","$59,236,019",12
+Syria Regional 3RP,2021,Iraq,45%,"$225,711,493","$101,768,945",19
+Syria Regional 3RP,2021,Jordan,48%,"$1,344,180,070","$643,480,191",43
+Syria Regional 3RP,2021,Lebanon,43%,"$2,753,986,500","$1,186,748,859",76
+Syria Regional 3RP,2021,Regional,24%,"$94,668,865","$22,453,933",3
+Syria Regional 3RP,2021,Turkey,51%,"$1,035,041,653","$527,296,680",23
+Syria Regional 3RP,2022,Egypt,31%,"$130,191,927","$40,128,238",13
+Syria Regional 3RP,2022,Iraq,22%,"$251,126,418","$54,344,059",24
+Syria Regional 3RP,2022,Jordan,34%,"$1,300,000,000","$447,614,411",56
+Syria Regional 3RP,2022,Lebanon,25%,"$3,195,999,999","$811,955,632",125
+Syria Regional 3RP,2022,Regional,14%,"$39,892,471","$5,782,845",3
+Syria Regional 3RP,2022,Turkey,33%,"$1,163,688,763","$382,602,931",22
+Ukraine Regional RRP,(Blank),Bulgaria,47%,"$30,961,450","$14,649,502",4
+Ukraine Regional RRP,(Blank),Czech Republic,19%,"$42,648,580","$8,213,352",4
+Ukraine Regional RRP,(Blank),Hungary,57%,"$75,297,944","$43,292,139",21
+Ukraine Regional RRP,(Blank),Moldova,71%,"$391,539,208","$276,194,740",42
+Ukraine Regional RRP,(Blank),Multiple Countries (Ukraine RRP),0%,(Blank),"$50,952,012",(Blank)
+Ukraine Regional RRP,(Blank),Poland,55%,"$777,764,695","$430,949,194",85
+Ukraine Regional RRP,(Blank),Regional and Other Countries,100%,"$157,662,042","$184,842,375",7
+Ukraine Regional RRP,(Blank),Romania,88%,"$226,586,000","$198,739,159",22
+Ukraine Regional RRP,(Blank),Slovakia,100%,"$87,477,072","$90,483,335",20
+Ukraine Regional RRP,2022,Bulgaria,47%,"$30,961,450","$14,649,502",4
+Ukraine Regional RRP,2022,Czech Republic,19%,"$42,648,580","$8,213,352",4
+Ukraine Regional RRP,2022,Hungary,57%,"$75,297,944","$43,292,139",21
+Ukraine Regional RRP,2022,Moldova,68%,"$391,539,208","$267,459,512",42
+Ukraine Regional RRP,2022,Multiple Countries (Ukraine RRP),0%,(Blank),"$50,952,012",(Blank)
+Ukraine Regional RRP,2022,Poland,55%,"$777,764,695","$430,949,194",85
+Ukraine Regional RRP,2022,Regional and Other Countries,100%,"$157,662,042","$184,313,375",7
+Ukraine Regional RRP,2022,Romania,88%,"$226,586,000","$198,348,364",22
+Ukraine Regional RRP,2022,Slovakia,100%,"$87,477,072","$90,483,335",20
+Ukraine Regional RRP,2023,Moldova,0%,(Blank),"$8,735,228",(Blank)
+Ukraine Regional RRP,2023,Regional and Other Countries,0%,(Blank),"$529,000",(Blank)
+Ukraine Regional RRP,2023,Romania,0%,(Blank),"$390,795",(Blank)
+Yemen Regional RMRP,2015,Djibouti,26%,"$37,350,914","$9,693,455",7
+Yemen Regional RMRP,2015,Ethiopia,15%,"$26,162,362","$4,000,000",4
+Yemen Regional RMRP,2015,Regional,100%,"$2,114,791","$6,721,492",2
+Yemen Regional RMRP,2015,Somalia,24%,"$59,372,640","$14,052,576",10
+Yemen Regional RMRP,2015,Sudan,6%,"$5,542,400","$350,000",2
+Yemen Regional RMRP,2016,Djibouti,33%,"$29,014,224","$9,693,455",7
+Yemen Regional RMRP,2016,Ethiopia,20%,"$20,050,572","$4,000,000",4
+Yemen Regional RMRP,2016,Regional,100%,"$1,413,141","$6,721,492",2
+Yemen Regional RMRP,2016,Somalia,36%,"$39,311,585","$14,052,576",7
+Yemen Regional RMRP,2016,Sudan,8%,"$4,341,210","$350,000",2
