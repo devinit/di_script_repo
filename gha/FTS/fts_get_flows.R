@@ -5,7 +5,7 @@
 #Notes: Specifying at least a year is recommended. Option to unnest output (recommended) is included. This process will take time with large downloads.
 
 fts_get_flows <- function(year = NULL, planid = NULL, emergencyid = NULL, globalclusterid = NULL, destinationlocationid = NULL, unnest = T){
-  lapply(c("data.table", "jsonlite"), require, character.only=T)
+  lapply(c("data.table", "jsonlite", "httr"), require, character.only=T)
   if(!is.null(year)){
     year <- paste0("year=", paste0(year, collapse=","))
   }
@@ -30,14 +30,14 @@ fts_get_flows <- function(year = NULL, planid = NULL, emergencyid = NULL, global
   hpc <- "https://api.hpc.tools/v1/public/fts/flow?"
   call.param <- paste(year, planid, emergencyid, globalclusterid, call.filter, "format=json&limit=1000", sep="&")
   call <- paste0(hpc, call.param)
-  fts <- fromJSON(call, flatten=T)
+  fts <- content(GET(call))
   
   flowslist <- list()
   flowslist[[1]] <- fts$data$flows
   i <- 2
   while (!is.null(fts$meta$nextLink)){
     nextLink <- fts$meta$nextLink
-    fts <- fromJSON(nextLink, flatten=T)
+    fts <- content(GET(nextLink))
     flowslist[[i]] <- fts$data$flows
     i <- i + 1
   }
