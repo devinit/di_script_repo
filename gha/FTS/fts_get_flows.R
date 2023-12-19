@@ -30,15 +30,15 @@ fts_get_flows <- function(year = NULL, planid = NULL, emergencyid = NULL, global
   hpc <- "https://api.hpc.tools/v1/public/fts/flow?"
   call.param <- paste(year, planid, emergencyid, globalclusterid, call.filter, "format=json&limit=1000", sep="&")
   call <- paste0(hpc, call.param)
-  fts <- content(GET(call))
+  fts <- fromJSON(content(GET(call), type = "text", encoding = "UTF-8"), flatten = T)
   
   flowslist <- list()
-  flowslist[[1]] <- fts$data$flows
+  flowslist[[1]] <- (fts$data$flows)
   i <- 2
   while (!is.null(fts$meta$nextLink)){
     nextLink <- fts$meta$nextLink
-    fts <- content(GET(nextLink))
-    flowslist[[i]] <- fts$data$flows
+    fts <- fromJSON(content(GET(nextLink), type = "text", encoding = "UTF-8"), flatten = T)
+    flowslist[[i]] <- (fts$data$flows)
     i <- i + 1
   }
   
