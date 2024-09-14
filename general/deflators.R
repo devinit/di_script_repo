@@ -1,5 +1,5 @@
 get_deflators <- function(base_year = 2021, currency = "USD", weo_ver = NULL, approximate_missing = T){
-  suppressPackageStartupMessages(lapply(c("data.table", "httr", "jsonlite"), require, character.only=T))
+  suppressPackageStartupMessages(lapply(c("data.table", "httr", "jsonlite","lubridate"), require, character.only=T))
   
   if(is.null(weo_ver)){
     
@@ -16,9 +16,10 @@ get_deflators <- function(base_year = 2021, currency = "USD", weo_ver = NULL, ap
   pweo_ver <- as.Date(paste0("1", weo_ver), "%d%b%Y")
   weo_year <- year(pweo_ver)
   weo_month <- month(pweo_ver)
+  weo_month_text <- as.character(lubridate::month(pweo_ver,label = TRUE, abbr = FALSE))
   
   while(T){
-    url <- paste0("https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/", weo_year, "/WEO", weo_ver ,"all.ashx")
+    url <- paste0("https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/", weo_year,"/",weo_month_text, "/WEO", weo_ver ,"all.ashx")
     response <- GET(url)
     if(response$headers$`content-type` == "application/vnd.ms-excel") break
     
